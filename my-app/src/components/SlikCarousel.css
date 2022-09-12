@@ -1,0 +1,86 @@
+.img-slider-container{
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 560px;  
+}
+
+.img-slider{
+  width: 100%;
+  height: 100%;
+}
+
+.slick-arrow{
+  z-index: 1;
+  top: 530px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-prev{
+  left: 0;
+  right: 135px;
+}
+
+.slick-next {
+  left: 135px;
+  right: 0;
+}
+
+.slick-dots {
+  bottom: 25px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white;
+}
+
+.slick-dots li button:before {
+  opacity: 0.50;
+  color: white;
+}
+
+.fa-angle-right{
+    line-height: 0;
+    position: absolute;
+    display: block;
+    width: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index: 1;
+    top: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 135px;
+    right: 0;
+    color: white;
+    opacity: 0.5;
+}
+
+.fa-angle-left{
+  line-height: 0;
+  position: absolute;
+  display: block;
+  width: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  z-index: 1;
+  top: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 120px;
+  color: white;
+  opacity: 0.5;
+}
+.fa-angle-left:hover, .fa-angle-right:hover{
+opacity: 1;
+}
